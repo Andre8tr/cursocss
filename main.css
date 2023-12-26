@@ -1,3 +1,28 @@
-*{
-    color: red;
+* {
+    margin: 0 ;
+}
+
+.test {
+    position: relative;
+    border: 1px dashed #2a7ca5;
+    color: #2a7ca5;
+    height: 200px;
+    background-color: #8be5ca;
+}
+
+.texto {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    top: 15%;
+    text-decoration: dashed;
+    text-shadow: 10px lightpink;
+    text-orientation: upright;
+    text-transform: uppercase;
+    transition: 1.5s ease;
+}
+
+.texto:hover{
+    color: #ffa9e0;
+    transition: 1.5s ease;
 }
